@@ -79,8 +79,8 @@ nav > ul > li {
 .nav__btn1 {
   font-size: 1.1rem;
   padding: 1rem 2rem;
-  background: pink;
-  border: 1px solid white;
+  background: white;
+  border: 1px solid gray;
   border-radius: 5px;
   margin-top: 3rem;
   transition: all 0.2s ease-in-out;
@@ -88,7 +88,7 @@ nav > ul > li {
 
 .nav__btn1:hover {
   cursor: pointer;
-  background: white;
+  background: pink;
   color: black;
   border: 1px solid pink;
 }

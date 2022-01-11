@@ -79,8 +79,8 @@ nav > ul > li {
 .nav__btn1 {
   font-size: 1.1rem;
   padding: 1rem 2rem;
-  background: #ff5a5f;
-  border: 1px solid white;
+  background: white;
+  border: 1px solid gray;
   border-radius: 5px;
   margin-top: 3rem;
   transition: all 0.2s ease-in-out;
@@ -88,9 +88,9 @@ nav > ul > li {
 
 .nav__btn1:hover {
   cursor: pointer;
-  background: white;
-  color: gray;
-  border: 1px solid #ff5a5f;
+  background: #ff5a5f;
+  color: black;
+  border: 1px solid gray;
 }
 
 .bottom {

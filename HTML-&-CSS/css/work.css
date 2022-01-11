@@ -79,7 +79,7 @@ nav > ul > li {
 .nav__btn1 {
   font-size: 1.1rem;
   padding: 1rem 2rem;
-  background: rgb(255, 254, 181);
+  background: white;
   border: 1px solid gray;
   border-radius: 5px;
   margin-top: 3rem;
@@ -88,9 +88,9 @@ nav > ul > li {
 
 .nav__btn1:hover {
   cursor: pointer;
-  background: white;
+  background: rgb(255, 254, 181);
   color: black;
-  border: 1px solid rgb(255, 254, 181);
+  border: 1px solid gray;
 }
 
 .bottom {
