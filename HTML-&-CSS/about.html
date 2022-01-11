@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navigation</title>
 
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
     <!-- Google fonts -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,6 +25,8 @@
       margin: 0;
     }
     .header {
+      position: sticky;
+      z-index: 3000;
       border-bottom: 1px solid whitesmoke;
       padding: 0.5rem 2rem;
     }
@@ -72,46 +76,96 @@
     }
 
     .nav__content1 {
-      height: 500px;
-      background: pink;
+      height: 80vh;
+      background: rgba(0, 174, 255, 0.733);
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+    }
+
+    .nav__content1 > h1 {
+      font-family: "Mulish", sans-serif;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .nav__content1 > p {
+      font-family: "Mulish", sans-serif;
+      font-weight: light;
+      margin-top: 2rem;
+      width: 50%;
+    }
+
+    .nav__btn1 {
+      font-size: 1.1rem;
+      padding: 1rem 2rem;
+      background: rgba(0, 174, 255, 0.733);
+      border: 1px solid white;
+      border-radius: 5px;
+      margin-top: 3rem;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .nav__btn1:hover {
+      cursor: pointer;
+      background: white;
+      color: black;
+      border: 1px solid rgba(0, 174, 255, 0.733);
+    }
+
+    .bottom {
+      font-family: "Mulish", sans-serif;
+      font-size: 10px;
+      font-weight: bolder;
+      color: black;
+      position: sticky;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 1.2rem;
     }
   </style>
   <body>
     <div class="header">
       <nav>
         <div class="logo">
-          <a href="#">
+          <a href="/HTML-&-CSS/index.html">
             <h3 class="nav__logo">Navigation</h3>
           </a>
         </div>
         <ul class="nav__links">
           <li>
-            <a href="#">Home</a>
+            <a href="/HTML-&-CSS/index.html">Home</a>
           </li>
           <li>
-            <a href="#">Work</a>
+            <a href="/HTML-&-CSS/work.html">Work</a>
           </li>
           <li>
-            <a href="#">Investors</a>
+            <a href="/HTML-&-CSS/about.html">About us</a>
           </li>
           <li>
-            <a href="#">About us</a>
+            <a href="/HTML-&-CSS/contact.html">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
 
-    <div class="nav__content1">
-      <h1>Content 1</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-        doloremque, quisquam quis, quisquam quos quidem quod quia quaerat
-        voluptates, quibusdam quisquam.
-      </p>
+    <div class="main__container">
+      <div class="nav__content1">
+        <h1>About Us Page</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          doloremque, quisquam quis, quisquam quos quidem quod quia quaerat
+          voluptates, quibusdam quisquam. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Ex voluptatum, ducimus quod dolorem vitae explicabo.
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, suntss
+          vitae explicabo.
+        </p>
+        <button class="nav__btn1">Our work</button>
+      </div>
     </div>
+
+    <footer class="bottom">Copyright &#169; 2020&#x2013;2022</footer>
   </body>
 </html>

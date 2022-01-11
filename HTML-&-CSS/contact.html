@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+
+    <!-- Google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Mulish:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      background-color: rgb(204, 0, 255);
+    }
+    .header {
+      position: sticky;
+      z-index: 3000;
+      border-bottom: 1px solid whitesmoke;
+      padding: 0.5rem 2rem;
+    }
+
+    .logo > a {
+      text-decoration: none;
+      color: #ff5a5f;
+    }
+
+    .nav__logo {
+      font-size: 2.2rem;
+      font-weight: bold;
+      font-family: "Caveat", cursive;
+    }
+
+    nav {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    nav > ul > li {
+      list-style: none;
+      text-decoration: none;
+    }
+
+    .nav__links {
+      padding: 0.5rem 0rem;
+      font-size: 1.3rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav__links > li {
+      margin-right: 1rem;
+      padding: 0.5rem;
+    }
+    .nav__links > li > a {
+      font-family: "Mulish", sans-serif;
+      color: black;
+      text-decoration: none;
+    }
+
+    .nav__links > li > a:hover {
+      color: #ff5a5f;
+    }
+
+    .bottom {
+      font-family: "Mulish", sans-serif;
+      font-size: 10px;
+      font-weight: bolder;
+      color: black;
+      position: sticky;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 1.2rem;
+    }
+
+    .form__container {
+      height: 80vh;
+      display: grid;
+      place-items: center;
+    }
+
+    .form__container > form {
+      width: 70vh;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    form {
+      border: 1px solid #ff5a5f;
+      border-radius: 5px;
+      padding: 3rem 3rem;
+    }
+
+    form > input {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    form > input:focus {
+      outline: none;
+    }
+
+    .form__btn {
+      background-color: #ff5a5f;
+      color: #fff;
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+      border: 1px solid transparent;
+    }
+
+    .form__btn:hover {
+      cursor: pointer;
+      color: #ff5a5f;
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <nav>
+        <div class="logo">
+          <a href="/HTML-&-CSS/index.html">
+            <h3 class="nav__logo">Navigation</h3>
+          </a>
+        </div>
+        <ul class="nav__links">
+          <li>
+            <a href="/HTML-&-CSS/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/HTML-&-CSS/work.html">Work</a>
+          </li>
+          <li>
+            <a href="/HTML-&-CSS/about.html">About us</a>
+          </li>
+          <li>
+            <a href="/HTML-&-CSS/contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="form__container">
+      <form action="">
+        <input
+          autocomplete="off"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+        />
+        <input
+          autocomplete="off"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+          autocomplete="off"
+        />
+        <input class="form__btn" type="submit" value="Submit" />
+      </form>
+    </div>
+
+    <footer class="bottom">Copyright &#169; 2020&#x2013;2022</footer>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Submission</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      /* height: 99vh; */
+      background-color: #fafafa;
+    }
+  </style>
+  <body>
+    <!-- create form with two input box -->
+  </body>
+</html>
