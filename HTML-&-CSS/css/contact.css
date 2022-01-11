@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: sticky;
+  z-index: 3000;
+  border-bottom: 1px solid whitesmoke;
+  padding: 0.5rem 2rem;
+}
+
+.logo > a {
+  text-decoration: none;
+  color: #ff5a5f;
+}
+
+.nav__logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: "Caveat", cursive;
+}
+
+nav {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > ul > li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nav__links {
+  padding: 0.5rem 0rem;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav__links > li {
+  margin-right: 1rem;
+  padding: 0.5rem;
+}
+.nav__links > li > a {
+  font-family: "Mulish", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.nav__links > li > a:hover {
+  color: #ff5a5f;
+}
+
+.bottom {
+  border-top: 1px solid whitesmoke;
+  font-family: "Mulish", sans-serif;
+  font-size: 10px;
+  font-weight: bolder;
+  color: black;
+  position: sticky;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1.2rem;
+}
+
+.form__container {
+  height: 80vh;
+  display: grid;
+  place-items: center;
+}
+
+.form__container > form {
+  width: 70vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+form {
+  border: 1px solid #ff5a5f;
+  border-radius: 5px;
+  padding: 3rem 3rem;
+}
+
+form > input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+form > input:focus {
+  outline: none;
+}
+
+.form__btn {
+  background-color: #ff5a5f;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 1px solid transparent;
+}
+
+.form__btn:hover {
+  cursor: pointer;
+  color: #ff5a5f;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
