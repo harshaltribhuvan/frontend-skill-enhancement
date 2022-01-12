@@ -1,7 +1,9 @@
 # frontend-skill-enhancement
 
-## HTML & CSS
+1. HTML & CSS
 
-## SASS / SCSS
+2. SASS / SCSS
 
-## JavaScript
+3. JavaScript
+
+4. Bootstrap
