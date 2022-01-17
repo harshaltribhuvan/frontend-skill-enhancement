@@ -90,7 +90,7 @@ nav > ul > li {
   cursor: pointer;
   background: pink;
   color: black;
-  border: 1px solid pink;
+  border: 1px solid gray;
 }
 
 .bottom {
