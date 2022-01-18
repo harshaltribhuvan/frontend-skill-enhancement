@@ -7,3 +7,5 @@
 3. JavaScript
 
 4. Bootstrap
+
+5. Angular
