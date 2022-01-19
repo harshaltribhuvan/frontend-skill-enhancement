@@ -1,0 +1,13 @@
+.app {
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.app > h1 {
+  font-size: 3rem;
+  padding-top: 30px;
+}
+
+.axios {
+  color: blue;
+}
