@@ -11,3 +11,5 @@
 5. Angular [Task Tracker]
 
 6. React.js [Fetch-Api]
+
+7. Redux [React-Redux toolkit]
