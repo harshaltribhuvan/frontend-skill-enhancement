@@ -12,4 +12,4 @@
 
 6. React.js [Fetch-Api]
 
-7. Redux [React-Redux toolkit]
+7. Redux [React-Redux toolkit, Redux-Api-CRUD]
