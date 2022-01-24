@@ -6,7 +6,7 @@
 
 3. JavaScript
 
-4. Bootstrap
+4. Bootstrap [Mobile-shop UI, Portfolio UI]
 
 5. Angular [Task Tracker]
 
