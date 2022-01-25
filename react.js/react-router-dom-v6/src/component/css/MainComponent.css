@@ -1,0 +1,47 @@
+.home,
+.contact,
+.about,
+.notFound,
+.post,
+.login {
+  height: 91.7vh;
+  display: grid;
+  place-content: center;
+  font-family: sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  .home,
+  .contact,
+  .about,
+  .notFound {
+    font-size: 1.3rem;
+  }
+}
+
+.home {
+  background-color: darkgoldenrod;
+}
+
+.about {
+  background-color: crimson;
+}
+
+.contact {
+  background-color: darkcyan;
+}
+
+.notFound {
+  background-color: black;
+}
+
+.post {
+  color: black;
+}
+
+.login {
+  color: black;
+  line-height: 1.3;
+}
