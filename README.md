@@ -6,10 +6,10 @@
 
 3. JavaScript
 
-4. Bootstrap
+4. Bootstrap [ Mobile-Shop UI, Portfolio UI ]
 
-5. Angular [Task Tracker]
+5. Angular [ Task Tracker ]
 
-6. React.js [Fetch-Api]
+6. React.js [ Fetch-Api ]
 
-7. Redux [React-Redux toolkit]
+7. Redux [ React-Redux Toolkit, Redux-Api-CRUD (Using RTK Query) ]
