@@ -10,6 +10,6 @@
 
 5. Angular [ Task Tracker ]
 
-6. React.js [ Fetch-Api, React-Router-Dom V6 ]
+6. React.js [ Fetch-Api, React-Router-Dom V6, Responsive Sidebar ]
 
 7. Redux [ React-Redux Toolkit, Redux-Api-CRUD (Using RTK Query) ]
