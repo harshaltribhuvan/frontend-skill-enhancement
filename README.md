@@ -14,4 +14,4 @@
 
 7. Redux [ React-Redux Toolkit, Redux-Api-CRUD (Using RTK Query) ]
 
-8. Microsoft Clarity (Heatmaps)
+8. Microsoft Clarity (Heatmaps) [ Integration with ReactJS ]
