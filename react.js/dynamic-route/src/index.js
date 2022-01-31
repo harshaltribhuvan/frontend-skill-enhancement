@@ -14,10 +14,10 @@ ReactDOM.render(
     <Header />
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="/work" element={<Work />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/card/:id" element={<Card />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="work" element={<Work />} />
+      <Route path="about" element={<About />} />
+      <Route path="card/:id" element={<Card />} />
+      <Route path="contact" element={<Contact />} />
     </Routes>
   </Router>,
   document.getElementById("root")

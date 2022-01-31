@@ -7,7 +7,6 @@ import "./Home.css";
 
 const Home = () => {
   const navigate = useNavigate();
-  console.log(navigate);
   const [apiData, setApiData] = useState([]);
 
   const fetchData = async () => {
@@ -15,7 +14,7 @@ const Home = () => {
       "https://jsonplaceholder.typicode.com/posts"
     );
     setApiData(data);
-    console.log(apiData);
+    // console.log(apiData);
   };
 
   useEffect(() => {
@@ -23,6 +22,7 @@ const Home = () => {
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
   return (
     <div className="home">
       <h1>Home Page</h1>
@@ -30,8 +30,9 @@ const Home = () => {
       <div className="fetch__container">
         {apiData.map((post) => (
           <Post
-            onClick={() => navigate(`/card/${post.id}`)}
+            onClick={alert("clicked")}
             key={post.id}
+            id={post.id}
             userId={post.userId}
             title={post.title}
             body={post.body}

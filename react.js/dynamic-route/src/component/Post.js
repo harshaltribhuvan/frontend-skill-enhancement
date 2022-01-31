@@ -1,6 +1,6 @@
 import "./Post.css";
 
-const Post = ({ key, userId, body, title }) => {
+const Post = ({ key, userId, body, title, id }) => {
   return (
     <div key={key} className="post__container">
       <h5>{userId}</h5>
