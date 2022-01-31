@@ -13,3 +13,5 @@
 6. React.js [ Fetch-Api, React-Router-Dom V6, Responsive Sidebar ]
 
 7. Redux [ React-Redux Toolkit, Redux-Api-CRUD (Using RTK Query) ]
+
+8. Microsoft Clarity (Heatmaps) [ Integration with ReactJS ]
