@@ -1,0 +1,25 @@
+.post__container {
+  cursor: pointer;
+  border: 1px solid gray;
+  background-color: #ffffff;
+  height: 350px;
+  width: 300px;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.post__container > h4 {
+  color: gray;
+  font-family: monospace;
+  font-weight: 200;
+}
+
+.post__container > h3 {
+  font-family: sans-serif;
+  color: darkgoldenrod;
+}
+
+.post__container > p {
+  line-height: 1.3;
+}
