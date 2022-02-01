@@ -11,3 +11,8 @@
   gap: 30px;
   flex-wrap: wrap;
 }
+
+.fetch__container > h5 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}

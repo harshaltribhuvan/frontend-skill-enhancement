@@ -50,7 +50,7 @@ const Header = () => {
                   return { color: isActive ? "darkgoldenrod" : "" };
                 }}
               >
-                Contact Us
+                Contact
               </NavLink>
             </li>
           </ul>

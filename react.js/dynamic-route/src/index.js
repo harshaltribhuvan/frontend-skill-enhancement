@@ -15,8 +15,8 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="work" element={<Work />} />
+      <Route path="/post/:id" element={<Card />} />
       <Route path="about" element={<About />} />
-      <Route path="card/:id" element={<Card />} />
       <Route path="contact" element={<Contact />} />
     </Routes>
   </Router>,

@@ -4,7 +4,7 @@ import "./MainContainer.css";
 const Work = () => {
   return (
     <div className="work">
-      <h1>Work Us</h1>
+      <h1>Our Work</h1>
     </div>
   );
 };
