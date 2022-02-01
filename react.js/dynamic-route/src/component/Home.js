@@ -14,7 +14,7 @@ const Home = () => {
         "https://jsonplaceholder.typicode.com/posts"
       );
       setApiData(data);
-      console.log(apiData);
+      // console.log(apiData);
       setLoading(true);
     } catch (e) {
       console.log(e);

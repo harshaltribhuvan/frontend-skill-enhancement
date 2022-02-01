@@ -2,7 +2,7 @@
 .about,
 .contact,
 .home {
-  height: 90vh;
+  height: 88vh;
   display: grid;
   place-items: center;
 }
@@ -20,4 +20,19 @@
 
 .contact > h1 {
   font-size: 2.5rem;
+}
+
+.contact > form > input {
+  color: darkgoldenrod;
+  font-size: 1.2rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  border-color: purple;
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+}
+
+.contact > form > input:focus {
+  outline: none;
 }

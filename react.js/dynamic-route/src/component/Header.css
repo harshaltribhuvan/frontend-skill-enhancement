@@ -35,8 +35,15 @@
 .header__navLinks > ul > li > a {
   text-decoration: none;
   color: #000000;
+  transition: all 0.3s ease-in-out;
 }
 
 .header__navLinks > ul > li > a:hover {
-  color: purple;
+  color: goldenrod;
+}
+
+@media (max-width: 768px) {
+  .header__navLinks > ul {
+    display: none;
+  }
 }
