@@ -27,7 +27,7 @@ const Card = () => {
     <div className="card__container">
       {loading ? (
         <div className="card">
-          <h3>{apiData.userId}</h3>
+          {/* <h3>{apiData.userId}</h3> */}
           <h1>{apiData.title}</h1>
           <h5>{apiData.body}</h5>
         </div>

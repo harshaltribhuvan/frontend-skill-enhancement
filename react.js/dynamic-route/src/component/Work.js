@@ -4,7 +4,12 @@ import "./MainContainer.css";
 const Work = () => {
   return (
     <div className="work">
-      <h1>Our Work</h1>
+      <h1>
+        Our{" "}
+        <span style={{ color: "darkgoldenrod", fontFamily: "cursive" }}>
+          Work
+        </span>
+      </h1>
     </div>
   );
 };
